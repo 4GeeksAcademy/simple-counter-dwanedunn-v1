@@ -1,4 +1,4 @@
-function Card({imgURL, imgALT, title, content, btnTxt}){
+const Card = ({ imgURL, imgALT, title, content, btnTxt, }) => {
     return (
         <div className="card">
             <img className="card-img-top" src={imgURL} alt={imgALT} />
