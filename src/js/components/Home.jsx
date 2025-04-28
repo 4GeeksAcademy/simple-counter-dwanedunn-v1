@@ -1,5 +1,5 @@
 import React from "react";
-import Counter from "./Counter";
+import SecondsCounter from "./SecondsCounter";
 import DemoMe from "./DemoMe";
 
 //create your first component
@@ -9,7 +9,7 @@ const Home = () => {
 			<div className="text-center">
 				<h1 className="text-center mt-5">Counter</h1>
 			</div>
-			<Counter/>
+			<SecondsCounter/>
 		</>
 	);
 };

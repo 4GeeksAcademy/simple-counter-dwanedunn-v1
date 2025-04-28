@@ -1,8 +1,8 @@
 import { FaRegClock } from "react-icons/fa";
 
-const Counter = () => {
+const SecondsCounter = () => {
 return (
-    // Create a horizontal counter display
+    // Create a horizontal Seconds Counter display
     <div className="d-flex justify-content-evenly gap-1 align-items-center p-2 bg-dark text-white counter">
         <div id="digit-icon" className="border border-2 border-secondary rounded p-1"><FaRegClock /></div>
         <div id="digit-6" className="border border-2 border-secondary rounded p-1">0</div>
@@ -15,4 +15,4 @@ return (
  )
 }
 
-export default Counter;
+export default SecondsCounter;
