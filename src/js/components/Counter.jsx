@@ -2,14 +2,15 @@ import { FaRegClock } from "react-icons/fa";
 
 const Counter = () => {
 return (
-    <div className="d-flex justify-content-center align-items-center p-2 bg-dark text-white counter">
-        <div><FaRegClock /></div>
-        <div>0</div>
-        <div>0</div>
-        <div>0</div>
-        <div>0</div>
-        <div>0</div>
-        <div className="border border-dark rounded p-1 bg-dark">0</div>
+    // Create a horizontal counter display
+    <div className="d-flex justify-content-evenly gap-1 align-items-center p-2 bg-dark text-white counter">
+        <div id="digit-icon" className="border border-2 border-secondary rounded p-1"><FaRegClock /></div>
+        <div id="digit-6" className="border border-2 border-secondary rounded p-1">0</div>
+        <div id="digit-5" className="border border-2 border-secondary rounded p-1">0</div>
+        <div id="digit-4" className="border border-2 border-secondary rounded p-1">0</div>
+        <div id="digit-3" className="border border-2 border-secondary rounded p-1">0</div>
+        <div id="digit-2" className="border border-2 border-secondary rounded p-1">0</div>
+        <div id="digit-1" className="border border-2 border-secondary rounded p-1">0</div>
     </div>
  )
 }
