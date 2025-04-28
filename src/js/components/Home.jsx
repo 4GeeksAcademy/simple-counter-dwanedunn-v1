@@ -7,11 +7,9 @@ const Home = () => {
 	return (
 		<>
 			<div className="text-center">
-				<h1 className="text-center mt-5">Hello It's working!</h1>
+				<h1 className="text-center mt-5">Counter</h1>
 			</div>
 			<Counter/>
-			<DemoMe/>
-			
 		</>
 	);
 };
