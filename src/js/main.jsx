@@ -14,7 +14,7 @@ import Counter from './components/Counter';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <Home/> */}
-    <Counter/>
+    <Home/>
+    {/* <Counter/> */}
   </React.StrictMode>,
 )

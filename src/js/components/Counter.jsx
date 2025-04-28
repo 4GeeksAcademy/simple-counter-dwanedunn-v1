@@ -1,6 +1,12 @@
 const Counter = () => {
-<div>
-    <p>Counter</p>
+
+<div className="d-flex justify-content-center bg-dark">
+    <div>0</div>
+    <div>0</div>
+    <div>0</div>
+    <div>0</div>
+    <div>0</div>
+    <div>0</div>
 </div>
 }
 
