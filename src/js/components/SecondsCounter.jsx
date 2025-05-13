@@ -47,7 +47,7 @@ const SecondsCounter = () => {
         id="digit-1"
         className="border border-2 border-secondary rounded p-1"
       >
-        0
+        1
       </div>
     </div>
   );
