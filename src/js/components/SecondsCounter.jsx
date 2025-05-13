@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaRegClock } from 'react-icons/fa';
 
-const SecondsCounter = () => {
+const SecondsCounter = (props) => {
   const [seconds, setSeconds] = useState(0);
 
   return (
@@ -16,19 +16,19 @@ const SecondsCounter = () => {
         id="digit-6"
         className="border border-2 border-secondary rounded p-1"
       >
-        0
+        {props.digitFive}
       </div>
       <div
         id="digit-5"
         className="border border-2 border-secondary rounded p-1"
       >
-        0
+        {props.digitFour}
       </div>
       <div
         id="digit-4"
         className="border border-2 border-secondary rounded p-1"
       >
-        0
+        {props.digitThree}
       </div>
       <div
         id="digit-3"
@@ -40,13 +40,13 @@ const SecondsCounter = () => {
         id="digit-2"
         className="border border-2 border-secondary rounded p-1"
       >
-        0
+        {props.digitTwo}
       </div>
       <div
         id="digit-1"
         className="border border-2 border-secondary rounded p-1"
       >
-        1
+        {props.digitOne}
       </div>
     </div>
   );
