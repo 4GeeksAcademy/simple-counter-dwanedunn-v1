@@ -5,7 +5,6 @@ const SecondsCounter = () => {
   const [seconds, setSeconds] = useState(0);
 
   return (
-    // Create a horizontal Seconds Counter display
     <div className="d-flex justify-content-evenly gap-1 align-items-center p-2 bg-dark text-white counter">
       <div
         id="digit-icon"
