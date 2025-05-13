@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { FaRegClock } from 'react-icons/fa';
 
 const SecondsCounter = (props) => {
@@ -16,19 +16,19 @@ const SecondsCounter = (props) => {
         id="digit-6"
         className="border border-2 border-secondary rounded p-1"
       >
-        {props.digitFive}
+        {props.digitFive % 10}
       </div>
       <div
         id="digit-5"
         className="border border-2 border-secondary rounded p-1"
       >
-        {props.digitFour}
+        {props.digitFour % 10}
       </div>
       <div
         id="digit-4"
         className="border border-2 border-secondary rounded p-1"
       >
-        {props.digitThree}
+        {props.digitThree % 10}
       </div>
       <div
         id="digit-3"
@@ -40,13 +40,13 @@ const SecondsCounter = (props) => {
         id="digit-2"
         className="border border-2 border-secondary rounded p-1"
       >
-        {props.digitTwo}
+        {props.digitTwo % 10}
       </div>
       <div
         id="digit-1"
         className="border border-2 border-secondary rounded p-1"
       >
-        {props.digitOne}
+        {props.digitOne % 10}
       </div>
     </div>
   );
