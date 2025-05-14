@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaRegClock } from 'react-icons/fa';
 
 const SecondsCounter = ({
@@ -8,8 +8,6 @@ const SecondsCounter = ({
   digitFour,
   digitFive,
 }) => {
-  const [seconds, setSeconds] = useState(0);
-
   return (
     <div className="d-flex justify-content-evenly gap-1 align-items-center p-2 bg-dark text-white counter">
       <div
