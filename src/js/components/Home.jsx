@@ -4,6 +4,7 @@ import SecondsCounter from './SecondsCounter';
 //create your first component
 let counter = 0;
 const Home = () => {
+  const [count, setCount]
   setInterval(() => {
     const five = Math.floor(counter / 10000);
     const four = Math.floor(counter / 1000);
@@ -22,6 +23,9 @@ const Home = () => {
       'five:',
       five
     );
+    const increment = () => {
+      setCount(prevCount + 1)% 100000
+    } // stay within 5 digits
     counter++;
   }, 1000);
 
